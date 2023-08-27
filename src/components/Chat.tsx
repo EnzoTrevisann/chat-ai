@@ -16,8 +16,8 @@ export function Chat(props: ChatProps) {
   return(
     <Card className="w-[440px]">
         <CardHeader>
-          <CardTitle>Chat AI</CardTitle>
-          <CardDescription>Using Vercel SDK to create a chat bot.</CardDescription>
+          <CardTitle>Soul Coderz ChatBot</CardTitle>
+          <CardDescription>Utilize o ChatBot da Soul Coderz para tirar suas dúvidas de CX!{/* Using Vercel SDK to create a chat bot.*/}</CardDescription> 
         </CardHeader>
         <CardContent>
           <ScrollArea className="h-[600px] w-full pr-4">
@@ -33,7 +33,7 @@ export function Chat(props: ChatProps) {
 
               { messages.role === 'assistant' && (
                 <Avatar>
-                  <AvatarFallback>RS</AvatarFallback>
+                  <AvatarFallback>SCBot</AvatarFallback>
                   <AvatarImage src="https://github.com/rocketseat.png"/>
                 </Avatar>
               )}
@@ -49,8 +49,8 @@ export function Chat(props: ChatProps) {
           </CardContent>
           <CardFooter>
             <form  className="w-full flex gap-2" onSubmit={handleSubmit}>
-            <Input placeholder="How can I help you?" value={input} onChange={handleInputChange}/>
-            <Button type="submit">Send</Button>
+            <Input placeholder="Como posso te ajudar?" value={input} onChange={handleInputChange}/>
+            <Button type="submit">Enviar</Button>
             </form>
           </CardFooter>
       </Card>
