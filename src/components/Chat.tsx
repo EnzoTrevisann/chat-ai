@@ -16,8 +16,8 @@ export function Chat(props: ChatProps) {
   return(
     <Card className="w-[440px]">
         <CardHeader>
-          <CardTitle>Soul Coderz ChatBot</CardTitle>
-          <CardDescription>Utilize o ChatBot da Soul Coderz para tirar suas dúvidas de CX!{/* Using Vercel SDK to create a chat bot.*/}</CardDescription> 
+          <CardTitle>Soul Coderz Bot</CardTitle>
+          <CardDescription>Utilize o ChatBot da Soul Coderz para tirar suas dúvidas de CX!</CardDescription> 
         </CardHeader>
         <CardContent>
           <ScrollArea className="h-[600px] w-full pr-4">
