@@ -17,7 +17,7 @@ O projeto Soul Coderz tem como objetivo melhorar o atendimento ao cliente da emp
 <br>
 
 <p align="center">
-  <img alt="projeto soul coderz" src=".github/preview.png" width="100%">
+  <img alt="Imagem de apresentação do projeto da soul coderz" src=".github/preview.png" width="100%">
 </p>
 
 ## ✏️ Como executar
